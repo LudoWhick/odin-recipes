@@ -1,8 +1,42 @@
 html {
     font-family: "Times New Roman", Arial, Garamond;
 }
+
 body {
-    background-color: lightblue;
+    background-color: rgb(220, 246, 255);
 }
 
+.box {
+    border: 6px outset lightgreen;
+    background-color: aliceblue;
+    height: 250px;
+    width: 500px;
+    padding: 10px;
+    margin: 80px auto;
+}
+
+
+.list {
+    background-color:rgb(247, 255, 255);
+    width: 350px;
+    height: 80px;
+    margin: 15px auto;
+    padding: 20px;
+    text-align:center;
+    list-style: none;
+    font-size: 1.2em;
+    border: 2px solid rgb(236, 233, 198);
+}
+
+.list a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:blueviolet;
+}
+
+h1 {
+    text-align: center;
+}
 
